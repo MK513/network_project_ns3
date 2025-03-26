@@ -1,0 +1,17 @@
+Waf: Entering directory `/home/kkmm2004/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/kkmm2004/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.394s)
+UdpEchoClientApplication:UdpEchoClient(0x560850fda1c0)
+UdpEchoClientApplication:SetDataSize(0x560850fda1c0, 1024)
+UdpEchoClientApplication:StartApplication(0x560850fda1c0)
+UdpEchoClientApplication:ScheduleTransmit(0x560850fda1c0, +0.0ns)
+UdpEchoClientApplication:Send(0x560850fda1c0)
+[INFO ] At time 2s client sent 1024 bytes to 10.1.1.2 port 9
+At time 2.00369s server received 1024 bytes from 10.1.1.1 port 49153
+At time 2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoClientApplication:HandleRead(0x560850fda1c0, 0x560850fb1350)
+[INFO ] At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
+UdpEchoClientApplication:StopApplication(0x560850fda1c0)
+UdpEchoClientApplication:DoDispose(0x560850fda1c0)
+UdpEchoClientApplication:~UdpEchoClient(0x560850fda1c0)

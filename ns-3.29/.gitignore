@@ -1,0 +1,4 @@
+#builds file
+build/
+/.waf
+/.lock-waf*

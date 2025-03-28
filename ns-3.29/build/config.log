@@ -1,16 +1,16 @@
-# project ns (3.29) configured on Fri Mar 28 17:46:12 2025 by
+# project ns (3.29) configured on Fri Mar 28 17:24:08 2025 by
 # waf 2.0.9 (abi 20, python 3080af0 on linux)
 # using waf configure --enable-examples --enable-tests --with-pybindgen ../pybindgen-0.17.0.post58+ngcf00cc0
 #
 ----------------------------------------
 Setting top to
-/home/kkmm2004/ns-allinone-3.29/ns-3.29
+/home/kkmm/network_project_ns3/ns-3.29
 ----------------------------------------
 Setting out to
-/home/kkmm2004/ns-allinone-3.29/ns-3.29/build
+/home/kkmm/network_project_ns3/ns-3.29/build
 ----------------------------------------
 Checking for 'gcc' (C compiler)
-find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
+find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
 ['/usr/bin/gcc', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -361,14 +361,14 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/gcc
 ----------------------------------------
 Checking for cc version
 9.4.0
 ----------------------------------------
 Checking for 'g++' (C++ compiler)
-find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
+find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
 ['/usr/bin/g++', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -719,30 +719,30 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/g++
 ------------------------------------------------------
 Checking for compilation flag -Wl,--soname=foo support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_a70e3f2a4466e806081a617dbc7592e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_a70e3f2a4466e806081a617dbc7592e7/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for compilation flag -std=c++11 support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_a70e3f2a4466e806081a617dbc7592e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_a70e3f2a4466e806081a617dbc7592e7/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for program 'python'
 /usr/bin/python
-find program=['python'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
+find program=['python'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
 ['/usr/bin/python', '-c', 'import imp;print(imp.get_tag())']
 out: cpython-38
 
@@ -811,8 +811,8 @@ LDVERSION = '3.8'
 ------------------------------------------------------
 python-config
 not found
-find program=['/usr/bin/python-config', 'python3.8-config', 'python-config-3.8', 'python3.8m-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PYTHON_CONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/bindings/python: Could not find the program ['/usr/bin/python-config', 'python3.8-config', 'python-config-3.8', 'python3.8m-config']
+find program=['/usr/bin/python-config', 'python3.8-config', 'python-config-3.8', 'python3.8m-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PYTHON_CONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29/bindings/python: Could not find the program ['/usr/bin/python-config', 'python3.8-config', 'python-config-3.8', 'python3.8m-config']
 Unhandled flag '-Wno-unused-result'
 Unhandled flag '-Wsign-compare'
 Unhandled flag '-Wall'
@@ -839,25 +839,25 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_eb2f30cb2a8ed38e2878be08761b28a3/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_f16e53d8245e4b53a8b1dada03342f5a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_eb2f30cb2a8ed38e2878be08761b28a3/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_eb2f30cb2a8ed38e2878be08761b28a3/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_f16e53d8245e4b53a8b1dada03342f5a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_f16e53d8245e4b53a8b1dada03342f5a/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_eb2f30cb2a8ed38e2878be08761b28a3/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lpython3.8']
+['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_f16e53d8245e4b53a8b1dada03342f5a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lpython3.8']
 err: /usr/bin/ld: cannot find -lpython3.8
 collect2: error: ld returned 1 exit status
 
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
+from /home/kkmm/network_project_ns3/ns-3.29/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
     bld.compile()
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/bindings/python: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/bindings/python: The configuration failed
 
 
 # try again with -L$python_LIBPL (some systems don't install the python library in $prefix/lib)
@@ -872,12 +872,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_49a0cb8790998ea8c466d73b79c37aed/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_3d25eae519a73524553b1a76db0b345a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_49a0cb8790998ea8c466d73b79c37aed/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_49a0cb8790998ea8c466d73b79c37aed/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_3d25eae519a73524553b1a76db0b345a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_3d25eae519a73524553b1a76db0b345a/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_49a0cb8790998ea8c466d73b79c37aed/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python3.8/config-3.8-x86_64-linux-gnu', '-lpython3.8']
+['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_3d25eae519a73524553b1a76db0b345a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python3.8/config-3.8-x86_64-linux-gnu', '-lpython3.8']
 yes
 Include path for Python extensions (found via distutils module): '/usr/include/python3.8'
 
@@ -903,45 +903,45 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_d319aba16c4dd3a9f1fa3bd7eeb5204b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_a7627e1173d72e499e12bda542eb57c8/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-fno-strict-aliasing', '-I/usr/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_d319aba16c4dd3a9f1fa3bd7eeb5204b/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-g', '-fwrapv', '-O2', '-g', '-fwrapv', '-O2', '-g', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-fno-strict-aliasing', '-I/usr/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_a7627e1173d72e499e12bda542eb57c8/testbuild/test.cpp.1.o']
 err: ../test.cpp:2:10: fatal error: Python.h: No such file or directory
     2 | #include <Python.h>
       |          ^~~~~~~~~~
 compilation terminated.
 
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
+from /home/kkmm/network_project_ns3/ns-3.29/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
     bld.compile()
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 Distutils not installed? Broken python installation? Get python-config now!
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/bindings/python: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/bindings/python: The configuration failed
 ------------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/src: The configuration failed
 ------------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/src: The configuration failed
 ------------------------------------------------------
 Checking for click location
 not found
 ------------------------------------------------------
 Checking for program 'pkg-config'
 not found
-find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PKGCONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/config-store: Could not find the program ['pkg-config']
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PKGCONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29/src/config-store: Could not find the program ['pkg-config']
 ------------------------------------------------------
 Checking for program 'pkg-config'
 not found
-find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PKGCONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/config-store: Could not find the program ['pkg-config']
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PKGCONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29/src/config-store: Could not find the program ['pkg-config']
 ------------------------------------------------------
 checking for uint128_t
 ==>
@@ -956,9 +956,9 @@ checking for uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_558c030b93a201985468232292c8035d/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_e352f16be70d397a4f30348c27820273/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_558c030b93a201985468232292c8035d/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_e352f16be70d397a4f30348c27820273/testbuild/test.cpp.1.o']
 err: ../test.cpp: In function ‘int main(int, char**)’:
 ../test.cpp:6:7: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint32_t’?
     6 |  if ((uint128_t *) 0) return 0;
@@ -976,16 +976,16 @@ err: ../test.cpp: In function ‘int main(int, char**)’:
       |              ^~~~~~~~~
       |              uint32_t
 
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
     bld.compile()
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: The configuration failed
 ------------------------------------------------------
 checking for __uint128_t
 ==>
@@ -1000,12 +1000,12 @@ checking for __uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_196302411e144ed3016d136e6e082704/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_9bfbb9c0977b56f1dd1d0f3c68e9c5ba/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_196302411e144ed3016d136e6e082704/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_196302411e144ed3016d136e6e082704/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_9bfbb9c0977b56f1dd1d0f3c68e9c5ba/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_9bfbb9c0977b56f1dd1d0f3c68e9c5ba/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_196302411e144ed3016d136e6e082704/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_9bfbb9c0977b56f1dd1d0f3c68e9c5ba/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking high precision implementation
@@ -1021,12 +1021,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1593365adc03c2ba1a65230ceec57d1a/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_de6d23adeb54c938d4568352d91a7612/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header inttypes.h
@@ -1039,12 +1039,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_c05e5c38afff896a50bfacbe3315077b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_36c803c8d41a9a252b905d200bd30101/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1057,24 +1057,24 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_be77cf32eb01a6ccbb2784e5244324c7/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_46caab23c26768dbd1f0467e55c11b8f/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_be77cf32eb01a6ccbb2784e5244324c7/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_46caab23c26768dbd1f0467e55c11b8f/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
     1 | #include <sys/inttypes.h>
       |          ^~~~~~~~~~~~~~~~
 compilation terminated.
 
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
     bld.compile()
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: The configuration failed
 ------------------------------------------------------
 Checking for header sys/types.h
 ==>
@@ -1086,12 +1086,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e830f4e66263761da1e08cf3d60ba722/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_256c0ad846203fcd78c809471799eb3e/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_e830f4e66263761da1e08cf3d60ba722/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e830f4e66263761da1e08cf3d60ba722/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_256c0ad846203fcd78c809471799eb3e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_256c0ad846203fcd78c809471799eb3e/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_e830f4e66263761da1e08cf3d60ba722/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_256c0ad846203fcd78c809471799eb3e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header sys/stat.h
@@ -1104,12 +1104,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_0790b32cb33064a14aec108f2ca3ef56/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_43de6eeb61021da470e8aeb9ada07b1a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_0790b32cb33064a14aec108f2ca3ef56/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_0790b32cb33064a14aec108f2ca3ef56/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_43de6eeb61021da470e8aeb9ada07b1a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_43de6eeb61021da470e8aeb9ada07b1a/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_0790b32cb33064a14aec108f2ca3ef56/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_43de6eeb61021da470e8aeb9ada07b1a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header dirent.h
@@ -1122,12 +1122,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_72f34f08013eaf41caf92bca829c3b9d/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_fa808fda123a0cc0b68b1419aea0cb3a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_72f34f08013eaf41caf92bca829c3b9d/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_72f34f08013eaf41caf92bca829c3b9d/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_fa808fda123a0cc0b68b1419aea0cb3a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_fa808fda123a0cc0b68b1419aea0cb3a/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_72f34f08013eaf41caf92bca829c3b9d/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_fa808fda123a0cc0b68b1419aea0cb3a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header stdlib.h
@@ -1140,12 +1140,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_49c2da635b2d6323ebcf652c25a05cba/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_b1883e89cd04daed9b5c9fdc6bb5c6cf/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_49c2da635b2d6323ebcf652c25a05cba/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_49c2da635b2d6323ebcf652c25a05cba/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_b1883e89cd04daed9b5c9fdc6bb5c6cf/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b1883e89cd04daed9b5c9fdc6bb5c6cf/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_49c2da635b2d6323ebcf652c25a05cba/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_b1883e89cd04daed9b5c9fdc6bb5c6cf/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header signal.h
@@ -1158,12 +1158,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_34d5add538c07c875347e8b0eac529b0/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_8274c5ba3f96a182bdd13cb64a2770d2/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_34d5add538c07c875347e8b0eac529b0/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_34d5add538c07c875347e8b0eac529b0/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_8274c5ba3f96a182bdd13cb64a2770d2/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_8274c5ba3f96a182bdd13cb64a2770d2/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_34d5add538c07c875347e8b0eac529b0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_8274c5ba3f96a182bdd13cb64a2770d2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header pthread.h
@@ -1178,12 +1178,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_2907ef1bf796be29d509cb5793d9de0e/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_e7151a94bad172f3ab191d4c6cec58da/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_2907ef1bf796be29d509cb5793d9de0e/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_2907ef1bf796be29d509cb5793d9de0e/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_e7151a94bad172f3ab191d4c6cec58da/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_e7151a94bad172f3ab191d4c6cec58da/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_2907ef1bf796be29d509cb5793d9de0e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_e7151a94bad172f3ab191d4c6cec58da/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header stdint.h
@@ -1196,12 +1196,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1593365adc03c2ba1a65230ceec57d1a/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_de6d23adeb54c938d4568352d91a7612/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_1593365adc03c2ba1a65230ceec57d1a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_de6d23adeb54c938d4568352d91a7612/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header inttypes.h
@@ -1214,12 +1214,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_c05e5c38afff896a50bfacbe3315077b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_36c803c8d41a9a252b905d200bd30101/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c05e5c38afff896a50bfacbe3315077b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_36c803c8d41a9a252b905d200bd30101/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1232,24 +1232,24 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_be77cf32eb01a6ccbb2784e5244324c7/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_46caab23c26768dbd1f0467e55c11b8f/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_be77cf32eb01a6ccbb2784e5244324c7/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_46caab23c26768dbd1f0467e55c11b8f/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
     1 | #include <sys/inttypes.h>
       |          ^~~~~~~~~~~~~~~~
 compilation terminated.
 
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Configure.py", line 324, in run_build
     bld.compile()
-  File "/home/kkmm2004/ns-allinone-3.29/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
+  File "/home/kkmm/network_project_ns3/ns-3.29/.waf3-2.0.9-897e824215d3dab2b64982d8af27db90/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/core: The configuration failed
+from /home/kkmm/network_project_ns3/ns-3.29/src/core: The configuration failed
 ------------------------------------------------------
 Checking for library rt
 ==>
@@ -1260,12 +1260,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_d8125c2609ec525828f800deecd7430a/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_46627e59bb23d6e286c921a3094ae4f8/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_d8125c2609ec525828f800deecd7430a/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_d8125c2609ec525828f800deecd7430a/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_46627e59bb23d6e286c921a3094ae4f8/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_46627e59bb23d6e286c921a3094ae4f8/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_d8125c2609ec525828f800deecd7430a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_46627e59bb23d6e286c921a3094ae4f8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
 yes
 ------------------------------------------------------
 Checking for header sys/ioctl.h
@@ -1278,12 +1278,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_146b66cd6beb6c8e81248056de5ca532/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_b6d2f25a0d6edfcbc09c6b727308b8f8/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_146b66cd6beb6c8e81248056de5ca532/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_146b66cd6beb6c8e81248056de5ca532/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_b6d2f25a0d6edfcbc09c6b727308b8f8/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b6d2f25a0d6edfcbc09c6b727308b8f8/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_146b66cd6beb6c8e81248056de5ca532/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_b6d2f25a0d6edfcbc09c6b727308b8f8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header net/if.h
@@ -1296,12 +1296,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_b0b05b2c107f7ab04642ff91a240375c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5637a9be635ae803de3cc22a15d4a7f9/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_b0b05b2c107f7ab04642ff91a240375c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_b0b05b2c107f7ab04642ff91a240375c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_5637a9be635ae803de3cc22a15d4a7f9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_5637a9be635ae803de3cc22a15d4a7f9/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_b0b05b2c107f7ab04642ff91a240375c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_5637a9be635ae803de3cc22a15d4a7f9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header net/ethernet.h
@@ -1314,12 +1314,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_c4a9f729cb230c343cd84cebe2ad3a32/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_701279376198e384a3b77e0e8210e9d0/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c4a9f729cb230c343cd84cebe2ad3a32/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_c4a9f729cb230c343cd84cebe2ad3a32/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_701279376198e384a3b77e0e8210e9d0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_701279376198e384a3b77e0e8210e9d0/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_c4a9f729cb230c343cd84cebe2ad3a32/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_701279376198e384a3b77e0e8210e9d0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -1332,12 +1332,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fece725c2209fa0464b4ffe6789c3447/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_c46c0f83ec799277b968025ecc30ea30/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for header netpacket/packet.h
@@ -1350,12 +1350,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7471609d971c613a8d0a8987fc327bce/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_72ff5fc6f85f1d0eddc3cc0bf09c89c5/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_7471609d971c613a8d0a8987fc327bce/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7471609d971c613a8d0a8987fc327bce/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_72ff5fc6f85f1d0eddc3cc0bf09c89c5/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_72ff5fc6f85f1d0eddc3cc0bf09c89c5/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_7471609d971c613a8d0a8987fc327bce/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_72ff5fc6f85f1d0eddc3cc0bf09c89c5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for NSC location
@@ -1363,8 +1363,8 @@ not found
 ------------------------------------------------------
 Checking for program 'pkg-config'
 not found
-find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PKGCONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29/src/stats: Could not find the program ['pkg-config']
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PKGCONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29/src/stats: Could not find the program ['pkg-config']
 ------------------------------------------------------
 Checking for header linux/if_tun.h
 ==>
@@ -1376,70 +1376,70 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fece725c2209fa0464b4ffe6789c3447/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_c46c0f83ec799277b968025ecc30ea30/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_fece725c2209fa0464b4ffe6789c3447/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_c46c0f83ec799277b968025ecc30ea30/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------
 Checking for program 'sudo'
 /usr/bin/sudo
-find program=['sudo'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='SUDO' -> ['/usr/bin/sudo']
+find program=['sudo'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='SUDO' -> ['/usr/bin/sudo']
 ------------------------------------------------------
 Checking for program 'valgrind'
 not found
-find program=['valgrind'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='VALGRIND' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29: Could not find the program ['valgrind']
+find program=['valgrind'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='VALGRIND' -> None
+from /home/kkmm/network_project_ns3/ns-3.29: Could not find the program ['valgrind']
 ------------------------------------------------------
 Checking for program 'pkg-config'
 not found
-find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='PKGCONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29: Could not find the program ['pkg-config']
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='PKGCONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29: Could not find the program ['pkg-config']
 ------------------------------------------------------
 python-config
 not found
-find program=['libgcrypt-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='LIBGCRYPT_CONFIG' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29: Could not find the program ['libgcrypt-config']
+find program=['libgcrypt-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='LIBGCRYPT_CONFIG' -> None
+from /home/kkmm/network_project_ns3/ns-3.29: Could not find the program ['libgcrypt-config']
 -------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_a70e3f2a4466e806081a617dbc7592e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_a70e3f2a4466e806081a617dbc7592e7/testbuild/test.cpp.1.o']
 ok
 -------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_36d8e98255d8177f8741fa255f5edd2d/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_e769107c77548ea2f29e3eb25ac22029/test.c[0m
 
-['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_36d8e98255d8177f8741fa255f5edd2d/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_e769107c77548ea2f29e3eb25ac22029/testbuild/test.c.1.o']
 ok
 -------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_a70e3f2a4466e806081a617dbc7592e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_f59c7a15d6bfb0aae68a26b14a7078bd/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_a70e3f2a4466e806081a617dbc7592e7/testbuild/test.cpp.1.o']
 ok
 -------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_36d8e98255d8177f8741fa255f5edd2d/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_e769107c77548ea2f29e3eb25ac22029/test.c[0m
 
-['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/kkmm2004/ns-allinone-3.29/ns-3.29/build/.conf_check_36d8e98255d8177f8741fa255f5edd2d/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/kkmm/network_project_ns3/ns-3.29/build/.conf_check_e769107c77548ea2f29e3eb25ac22029/testbuild/test.c.1.o']
 ok
 -------------------------------------------------------
 Checking for program 'doxygen'
 not found
-find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Users/finem/anaconda3', '/mnt/c/Users/finem/anaconda3/Library/mingw-w64/bin', '/mnt/c/Users/finem/anaconda3/Library/usr/bin', '/mnt/c/Users/finem/anaconda3/Library/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/anaconda3/bin', '/mnt/c/Users/finem/anaconda3/condabin', '/mnt/c/Program Files/PlasticSCM5/server', '/mnt/c/Program Files/PlasticSCM5/client', '/mnt/c/Program Files/Java/jdk-17/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/Program Files/ImageMagick-7.1.1-Q16-HDRI', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0', '/mnt/c/Windows/System32/OpenSSH', '/mnt/c/mingw64/bin', '/mnt/c/Program Files/Bandizip', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/Scripts', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Python312/python.exe', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Users/finem/anaconda3/Scripts', '/mnt/c/Users/finem/AppData/Local/Pub/Cache/bin', '/mnt/c/Users/finem/flutter/bin', '/mnt/c/Program Files/dotnet', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit', '/mnt/c/Users/finem/AppData/Local/Programs/Python/Launcher', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/finem/AppData/Local/gitkraken/bin', '/mnt/c/Users/finem/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/mnt/c/flutter/bin', '/mnt/c/Users/finem/.dotnet/tools', '/snap/bin'] var='DOXYGEN' -> None
-from /home/kkmm2004/ns-allinone-3.29/ns-3.29: Could not find the program ['doxygen']
+find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/Program Files/Java/jdk-21/bin', '/mnt/c/Program Files/Common Files/Oracle/Java/javapath', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files/Bandizip/', '/mnt/c/msys64/ucrt64/bin', '/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/', '/mnt/c/Program Files/nodejs/', '/mnt/c/Users/finem/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Users/finem/AppData/Local/SOOP', '/mnt/c/Users/finem/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.3/bin', '/mnt/c/Users/finem/AppData/Roaming/npm', '/snap/bin'] var='DOXYGEN' -> None
+from /home/kkmm/network_project_ns3/ns-3.29: Could not find the program ['doxygen']

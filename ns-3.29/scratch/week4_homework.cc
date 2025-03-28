@@ -31,8 +31,8 @@
    std::string bw = "5Mbps";
  
    CommandLine cmd;
-   cmd.AddValue("delay", "Line Delay", delay);
-   cmd.AddValue("bw", "Bandwidth", bw);
+   cmd.AddValue("Delay", "Line Delay", delay);
+   cmd.AddValue("DataRate", "Bandwidth", bw);
    cmd.Parse (argc, argv);
  
    
@@ -64,6 +64,7 @@
  
    ApplicationContainer serverApps = udpServer.Install (nodes.Get (1));
    serverApps.Start (Seconds (1.0));
+   serverApps.Stop (Seconds (10.0));
 
  
    UdpClientHelper udpClient (interfaces.GetAddress (1), 9);

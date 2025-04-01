@@ -1,4 +1,4 @@
 # builds file
 build/
-/.waf*
-/.lock-waf*
+.waf*
+.lock-waf*

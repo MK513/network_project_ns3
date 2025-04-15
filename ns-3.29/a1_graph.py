@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 
 # 로그 파일들
-log_files = ['ap42.txt']  # 여기에 원하는 로그 파일 이름 추가
+log_files = ['a1_to0.txt', 'a1_to1.txt']  # 여기에 원하는 로그 파일 이름 추가
 
 # 정규 표현식
 pattern = re.compile(
@@ -19,7 +19,15 @@ for log_file in log_files:
     with open(log_file, 'r') as f:
         for line in f:
             match = pattern.search(line)
+
             if match:
+
+                if log_file == "a1_to0.txt":
+                    src = match.group('src')
+                    if src == "10.1.1.1.49153":
+                        continue
+
+
                 time = float(match.group('time'))
                 src = match.group('src')
                 dst = match.group('dst')

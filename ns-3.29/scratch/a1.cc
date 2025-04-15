@@ -105,7 +105,7 @@ main (int argc, char *argv[])
     NS_LOG_INFO ("Create Applications.");
     uint16_t bgPort = 8000;
     uint16_t f1Port = 8001;
-    // uint16_t f2Port = 8002;
+    uint16_t f2Port = 8002;
 
     // BG Flow (n2 -> n1)
     OnOffHelper onoffBg ("ns3::UdpSocketFactory",
@@ -128,7 +128,7 @@ main (int argc, char *argv[])
     // pktSink1->TraceConnect("Rx", "FlowBg", MakeCallback(&Rxtime));
 
     // Flow1 (n0 -> n1)
-    OnOffHelper onoffF1 ("ns3::TcpSocketFactory",
+    OnOffHelper onoffF1 ("ns3::UdpSocketFactory",
         Address (InetSocketAddress (Ipv4Address ("10.1.3.1"), f1Port)));
     onoffF1.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=10.0]"));
     onoffF1.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
@@ -138,7 +138,7 @@ main (int argc, char *argv[])
     app2.Start (Seconds(10.0));
     app2.Stop (Seconds (20.0));
 
-    PacketSinkHelper sinkF1 ("ns3::TcpSocketFactory", 
+    PacketSinkHelper sinkF1 ("ns3::UdpSocketFactory", 
         Address (InetSocketAddress (Ipv4Address::GetAny (), f1Port)));
 
     ApplicationContainer sinkApp2 = sinkF1.Install (terminals.Get (1));
@@ -148,23 +148,23 @@ main (int argc, char *argv[])
     // pktSink2->TraceConnect("Rx", "Flow1", MakeCallback(&Rxtime));
 
     
-    // // Flow2 (n3 -> n0)
-    // OnOffHelper onoffF2 ("ns3::TcpSocketFactory",
-    //     Address (InetSocketAddress (Ipv4Address ("10.1.1.1"), f2Port)));
-    // onoffF2.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=16.0]"));
-    // onoffF2.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
-    // onoffF2.SetAttribute ("DataRate", DataRateValue (DataRate("100Mbps")));
+    // Flow2 (n3 -> n0)
+    OnOffHelper onoffF2 ("ns3::UdpSocketFactory",
+        Address (InetSocketAddress (Ipv4Address ("10.1.1.1"), f2Port)));
+    onoffF2.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=16.0]"));
+    onoffF2.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
+    onoffF2.SetAttribute ("DataRate", DataRateValue (DataRate("100Mbps")));
     
-    // ApplicationContainer app3 = onoffF2.Install (terminals.Get (3));
-    // app3.Start (Seconds(12.0));
-    // app3.Stop (Seconds (28.0));
+    ApplicationContainer app3 = onoffF2.Install (terminals.Get (3));
+    app3.Start (Seconds(12.0));
+    app3.Stop (Seconds (28.0));
 
-    // PacketSinkHelper sinkF2 ("ns3::TcpSocketFactory", 
-    //     Address (InetSocketAddress (Ipv4Address::GetAny (), f2Port)));
+    PacketSinkHelper sinkF2 ("ns3::UdpSocketFactory", 
+        Address (InetSocketAddress (Ipv4Address::GetAny (), f2Port)));
 
-    // ApplicationContainer sinkApp3 = sinkF2.Install (terminals.Get (0));
-    // sinkApp3.Start (Seconds (0.0));
-    // sinkApp3.Stop (Seconds (28.0));
+    ApplicationContainer sinkApp3 = sinkF2.Install (terminals.Get (0));
+    sinkApp3.Start (Seconds (0.0));
+    sinkApp3.Stop (Seconds (28.0));
     // // Ptr<PacketSink> pktSink3 = DynamicCast<PacketSink>(sinkApp3.Get(0));
     // // pktSink3->TraceConnect("Rx", "Flow2", MakeCallback(&Rxtime));
 

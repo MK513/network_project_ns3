@@ -30,6 +30,9 @@
 #include "point-to-point-channel.h"
 #include "ppp-header.h"
 
+#include "ns3/ipv4-header.h"
+#include "ns3/udp-header.h"
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("PointToPointNetDevice");
@@ -394,6 +397,21 @@ PointToPointNetDevice::Receive (Ptr<Packet> packet)
       // headers.
       //
       Ptr<Packet> originalPacket = packet->Copy ();
+
+      //-----week7--------
+      if (m_node->GetNApplications() == 0) {
+        Ptr<Packet> testPacket = packet->Copy();
+        PppHeader ppp;
+        testPacket->RemoveHeader(ppp);
+
+        Ipv4Header ip;
+        testPacket->RemoveHeader(ip);
+
+        UdpHeader udp;
+        testPacket->RemoveHeader(udp);
+
+        std::cout << "Node ID: " << m_node->GetId() << " UDP Src Port: " << udp.GetSourcePort() << " UDP Dst Port: " << udp.GetDestinationPort() << std::endl;
+      }
 
       //
       // Strip off the point-to-point protocol header and forward this packet

@@ -29,6 +29,8 @@
 #include "ns3/trace-source-accessor.h"
 #include "udp-echo-client.h"
 
+#include "ns3/new-header.h" //week7
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("UdpEchoClientApplication");
@@ -346,6 +348,13 @@ UdpEchoClient::Send (void)
     {
       m_txTraceWithAddresses (p, localAddress, Inet6SocketAddress (Ipv6Address::ConvertFrom (m_peerAddress), m_peerPort));
     }
+
+  //----------week7---------
+  NewHeader hdr;
+  hdr.SetTime();
+  hdr.Print(std::cout);
+  p->AddHeader(hdr);
+  //------------------------
   m_socket->Send (p);
   ++m_sent;
 

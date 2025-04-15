@@ -32,6 +32,8 @@
 
 #include "udp-echo-server.h"
 
+#include "ns3/new-header.h" // week7
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("UdpEchoServerApplication");
@@ -163,6 +165,14 @@ UdpEchoServer::HandleRead (Ptr<Socket> socket)
   while ((packet = socket->RecvFrom (from)))
     {
       socket->GetSockName (localAddress);
+
+      //------week7------
+      NewHeader hdr;
+      packet->RemoveHeader(hdr);
+      uint64_t hdr_time = hdr.GetTime();
+      std::cout << "Header time at rx = " << hdr_time << std::endl;
+      //-----------------
+
       m_rxTrace (packet);
       m_rxTraceWithAddresses (packet, from, localAddress);
       if (InetSocketAddress::IsMatchingType (from))

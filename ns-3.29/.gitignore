@@ -2,3 +2,7 @@
 build/
 /.waf*
 /.lock-waf*
+.waf3*
+.lock-waf*
+__pycache__*
+waf*

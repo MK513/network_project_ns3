@@ -410,7 +410,7 @@ PointToPointNetDevice::Receive (Ptr<Packet> packet)
         UdpHeader udp;
         testPacket->RemoveHeader(udp);
 
-        std::cout << "Node ID: " << m_node->GetId() << " UDP Src Port: " << udp.GetSourcePort() << " UDP Dst Port: " << udp.GetDestinationPort() << std::endl;
+        //std::cout << "Node ID: " << m_node->GetId() << " UDP Src Port: " << udp.GetSourcePort() << " UDP Dst Port: " << udp.GetDestinationPort() << std::endl;
       }
 
       //

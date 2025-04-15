@@ -28,5 +28,5 @@ plt.title('2020312852')
 plt.xlabel('Time')
 plt.ylabel('Value')
 plt.legend() # Showlegend
-output_file= './week5_star.png' # Savetheplotasa.pngfile
-plt.savefig(output_file)
+# output_file= './week5_star.png' # Savetheplotasa.pngfile
+# plt.savefig(output_file)

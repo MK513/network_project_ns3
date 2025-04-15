@@ -1,8 +1,14 @@
 #builds file
 build/
-/.waf*
-/.lock-waf*
-.waf3*
-.lock-waf*
-__pycache__*
+
+# waf 관련 무시
 waf*
+.waf*
+.lock-waf*
+.waf3*/
+
+# pycache 무시
+__pycache__/
+*.pyc
+
+*.pcap

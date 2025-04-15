@@ -1,0 +1,10 @@
+Waf: Entering directory `/home/kkmm/network_project_ns3/ns-3.29/build'
+Waf: Leaving directory `/home/kkmm/network_project_ns3/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.382s)
+Create nodes.
+Build Topology.
+Assign IP Addresses.
+Create Applications.
+Run Simulation.
+Done.

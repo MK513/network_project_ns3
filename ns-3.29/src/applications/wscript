@@ -26,6 +26,9 @@ def build(bld):
         'helper/three-gpp-http-helper.cc',
         'helper/new-app-helper.cc',
         'model/new-app.cc',
+        'model/udp-reliable-echo-client.cc', # week11
+        'model/udp-reliable-echo-server.cc', # week11
+        'helper/udp-reliable-echo-helper.cc', # week11
         ]
 
     applications_test = bld.create_ns3_module_test_library('applications')
@@ -60,6 +63,9 @@ def build(bld):
         'helper/three-gpp-http-helper.h',
         'helper/new-app-helper.h',
         'model/new-app.h',
+        'model/udp-reliable-echo-client.h', # week11
+        'model/udp-reliable-echo-server.h', # week11
+        'helper/udp-reliable-echo-helper.h', # week11
         ]
     
     if (bld.env['ENABLE_EXAMPLES']):

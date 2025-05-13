@@ -13,44 +13,25 @@ using namespace ns3;
 
 NS_LOG_COMPONENT_DEFINE ("netpA1");
 
-static void
-Rxtime(std::string context, Ptr<const Packet> p, const Address &a)
-{
-    static double prevTimeBg = 0.0;
-    static double prevTime1 = 0.0;
-    static double prevTime2 = 0.0;
-
-    static double currBytesBg = 0.0, currBytes1 = 0.0, currBytes2 = 0.0;
-
-    double now = Simulator::Now().GetSeconds();
-    uint32_t pktSize = p->GetSize();
-
-    if (context == "FlowBg") {
-        currBytesBg += pktSize;
-        if (now - prevTimeBg >= 0.1) {
-            double throughputMbps = (currBytesBg * 8.0) / 1000000.0 / (now - prevTimeBg);
-            NS_LOG_UNCOND("0\t" << now << "\t" << throughputMbps);
-            prevTimeBg = now;
-            currBytesBg = 0.0;
-        }
-    } else if (context == "Flow1") {
-        currBytes1 += pktSize;
-        if (now - prevTime1 >= 0.1) {
-            double throughputMbps = (currBytes1 * 8.0) / 1000000.0 / (now - prevTime1);
-            NS_LOG_UNCOND("1\t" << now << "\t" << throughputMbps);
-            prevTime1 = now;
-            currBytes1 = 0.0;
-        }
-    } else if (context == "Flow2") {
-        currBytes2 += pktSize;
-        if (now - prevTime2 >= 0.1) {
-            double throughputMbps = (currBytes2 * 8.0) / 1000000.0 / (now - prevTime2);
-            NS_LOG_UNCOND("2\t" << now << "\t" << throughputMbps);
-            prevTime2 = now;
-            currBytes2 = 0.0;
-        }
-    }
-}
+// static void
+// Rxtime (std::string context, Ptr<const Packet> p, const Address &a)
+// {
+//     static double bytes1, bytes2 = 0;
+//     if (context == "FlowBg") {
+//         bytes1 += p->GetSize();
+//         NS_LOG_UNCOND("0\t" << Simulator::Now().GetSeconds()
+//         << "\t" << bytes1 * 8 / 1000000 / (Simulator::Now().GetSeconds() - 1));
+//     } 
+//     else if (context == "Flow1") {
+//         bytes1 += p->GetSize();
+//         NS_LOG_UNCOND("1\t" << Simulator::Now().GetSeconds()
+//         << "\t" << bytes1 * 8 / 1000000 / (Simulator::Now().GetSeconds() - 1));
+//     } else if (context == "Flow2") {
+//         bytes2 += p->GetSize();
+//         NS_LOG_UNCOND("2\t" << Simulator::Now().GetSeconds()
+//         << "\t" << bytes2 * 8 / 1000000 / (Simulator::Now().GetSeconds() - 3));
+//     }
+// }
 
 int
 main (int argc, char *argv[])
@@ -62,7 +43,7 @@ main (int argc, char *argv[])
     cmd.Parse(argc, argv);
 
     Time::SetResolution (Time::NS);
-    //LogComponentEnable ("netpA1", LOG_LEVEL_ALL);
+    LogComponentEnable ("netpA1", LOG_LEVEL_ALL);
 
     NS_LOG_INFO("Create nodes.");
     NodeContainer terminals;
@@ -124,7 +105,7 @@ main (int argc, char *argv[])
     NS_LOG_INFO ("Create Applications.");
     uint16_t bgPort = 8000;
     uint16_t f1Port = 8001;
-    // uint16_t f2Port = 8002;
+    uint16_t f2Port = 8002;
 
     // BG Flow (n2 -> n1)
     OnOffHelper onoffBg ("ns3::UdpSocketFactory",
@@ -144,10 +125,10 @@ main (int argc, char *argv[])
     sinkApp1.Start (Seconds (0.0));
     sinkApp1.Stop (Seconds (25.0));
     // Ptr<PacketSink> pktSink1 = DynamicCast<PacketSink>(sinkApp1.Get(0));
-    sinkApp1.Get(0)->TraceConnect("Rx", "FlowBg", MakeCallback(&Rxtime));
+    // pktSink1->TraceConnect("Rx", "FlowBg", MakeCallback(&Rxtime));
 
     // Flow1 (n0 -> n1)
-    OnOffHelper onoffF1 ("ns3::TcpSocketFactory",
+    OnOffHelper onoffF1 ("ns3::UdpSocketFactory",
         Address (InetSocketAddress (Ipv4Address ("10.1.3.1"), f1Port)));
     onoffF1.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=10.0]"));
     onoffF1.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
@@ -157,56 +138,56 @@ main (int argc, char *argv[])
     app2.Start (Seconds(10.0));
     app2.Stop (Seconds (20.0));
 
-    PacketSinkHelper sinkF1 ("ns3::TcpSocketFactory", 
+    PacketSinkHelper sinkF1 ("ns3::UdpSocketFactory", 
         Address (InetSocketAddress (Ipv4Address::GetAny (), f1Port)));
 
     ApplicationContainer sinkApp2 = sinkF1.Install (terminals.Get (1));
     sinkApp2.Start (Seconds (0.0));
     sinkApp2.Stop (Seconds (20.0));
     // Ptr<PacketSink> pktSink2 = DynamicCast<PacketSink>(sinkApp2.Get(0));
-    sinkApp2.Get(0)->TraceConnect("Rx", "Flow1", MakeCallback(&Rxtime));
+    // pktSink2->TraceConnect("Rx", "Flow1", MakeCallback(&Rxtime));
 
     
-    // // Flow2 (n3 -> n0)
-    // OnOffHelper onoffF2 ("ns3::TcpSocketFactory",
-    //     Address (InetSocketAddress (Ipv4Address ("10.1.1.1"), f2Port)));
-    // onoffF2.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=16.0]"));
-    // onoffF2.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
-    // onoffF2.SetAttribute ("DataRate", DataRateValue (DataRate("100Mbps")));
+    // Flow2 (n3 -> n0)
+    OnOffHelper onoffF2 ("ns3::UdpSocketFactory",
+        Address (InetSocketAddress (Ipv4Address ("10.1.1.1"), f2Port)));
+    onoffF2.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=16.0]"));
+    onoffF2.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"));
+    onoffF2.SetAttribute ("DataRate", DataRateValue (DataRate("100Mbps")));
     
-    // ApplicationContainer app3 = onoffF2.Install (terminals.Get (3));
-    // app3.Start (Seconds(12.0));
-    // app3.Stop (Seconds (28.0));
+    ApplicationContainer app3 = onoffF2.Install (terminals.Get (3));
+    app3.Start (Seconds(12.0));
+    app3.Stop (Seconds (28.0));
 
-    // PacketSinkHelper sinkF2 ("ns3::TcpSocketFactory", 
-    //     Address (InetSocketAddress (Ipv4Address::GetAny (), f2Port)));
+    PacketSinkHelper sinkF2 ("ns3::UdpSocketFactory", 
+        Address (InetSocketAddress (Ipv4Address::GetAny (), f2Port)));
 
-    // ApplicationContainer sinkApp3 = sinkF2.Install (terminals.Get (0));
-    // sinkApp3.Start (Seconds (0.0));
-    // sinkApp3.Stop (Seconds (28.0));
+    ApplicationContainer sinkApp3 = sinkF2.Install (terminals.Get (0));
+    sinkApp3.Start (Seconds (0.0));
+    sinkApp3.Stop (Seconds (28.0));
     // // Ptr<PacketSink> pktSink3 = DynamicCast<PacketSink>(sinkApp3.Get(0));
-    // sinkApp3.Get(0)->TraceConnect("Rx", "Flow2", MakeCallback(&Rxtime));
+    // // pktSink3->TraceConnect("Rx", "Flow2", MakeCallback(&Rxtime));
 
-    // /* Enable Pcap tracing */
-    // csma.EnablePcapAll ("a1-csma", false);
-    // p2p.EnablePcapAll("a1-p2p", false);
+    /* Enable Pcap tracing */
+    csma.EnablePcapAll ("a1-csma", false);
+    p2p.EnablePcapAll("a1-p2p", false);
 
 
-    // for (uint32_t i = 0; i < terminals.GetN(); ++i) {
-    //     Ptr<Ipv4> ipv4 = terminals.Get(i)->GetObject<Ipv4>();
-    //     for (uint32_t j = 0; j < ipv4->GetNInterfaces(); ++j) {
-    //         std::cout << "terminals " << i << " Interface " << j << ": " 
-    //                   << ipv4->GetAddress(j, 0).GetLocal() << std::endl;
-    //     }
-    // }
+    for (uint32_t i = 0; i < terminals.GetN(); ++i) {
+        Ptr<Ipv4> ipv4 = terminals.Get(i)->GetObject<Ipv4>();
+        for (uint32_t j = 0; j < ipv4->GetNInterfaces(); ++j) {
+            std::cout << "terminals " << i << " Interface " << j << ": " 
+                      << ipv4->GetAddress(j, 0).GetLocal() << std::endl;
+        }
+    }
 
-    // for (uint32_t i = 0; i < routers.GetN(); ++i) {
-    //     Ptr<Ipv4> ipv4 = routers.Get(i)->GetObject<Ipv4>();
-    //     for (uint32_t j = 0; j < ipv4->GetNInterfaces(); ++j) {
-    //         std::cout << "routers " << i << " Interface " << j << ": " 
-    //                   << ipv4->GetAddress(j, 0).GetLocal() << std::endl;
-    //     }
-    // }
+    for (uint32_t i = 0; i < routers.GetN(); ++i) {
+        Ptr<Ipv4> ipv4 = routers.Get(i)->GetObject<Ipv4>();
+        for (uint32_t j = 0; j < ipv4->GetNInterfaces(); ++j) {
+            std::cout << "routers " << i << " Interface " << j << ": " 
+                      << ipv4->GetAddress(j, 0).GetLocal() << std::endl;
+        }
+    }
     
 
     // AnimationInterface anim ("a1.xml");
